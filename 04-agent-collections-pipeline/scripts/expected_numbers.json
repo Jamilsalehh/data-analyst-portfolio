@@ -1,0 +1,79 @@
+{
+ "payments": 30659,
+ "total_usd": 1157605,
+ "active_agents": 860,
+ "avg_payment": 37.76,
+ "avg_payments_per_day": 333,
+ "policies_sold": 13079,
+ "premium_usd": 549232,
+ "top50_share_pct": 36.7,
+ "agents_for_half_of_usd": 102,
+ "by_network": [
+  {
+   "agent_network": "Company branches",
+   "agents": 20,
+   "payments": 6334,
+   "usd": 239215,
+   "share_usd_pct": 20.7,
+   "same_day_pct": 75.7
+  },
+  {
+   "agent_network": "Partner chain A",
+   "agents": 8,
+   "payments": 1177,
+   "usd": 44795,
+   "share_usd_pct": 3.9,
+   "same_day_pct": 73.5
+  },
+  {
+   "agent_network": "Partner chain B",
+   "agents": 8,
+   "payments": 803,
+   "usd": 30200,
+   "share_usd_pct": 2.6,
+   "same_day_pct": 66.7
+  },
+  {
+   "agent_network": "Regular agents",
+   "agents": 780,
+   "payments": 20220,
+   "usd": 762965,
+   "share_usd_pct": 65.9,
+   "same_day_pct": 28.6
+  },
+  {
+   "agent_network": "Sub-agents",
+   "agents": 44,
+   "payments": 2125,
+   "usd": 80430,
+   "share_usd_pct": 6.9,
+   "same_day_pct": 46.3
+  }
+ ],
+ "extra_policies_if_regular_at_Sub-agents": 3561,
+ "extra_commission_usd_if_regular_at_Sub-agents": 23923,
+ "extra_policies_if_regular_at_Company branches": 9520,
+ "extra_commission_usd_if_regular_at_Company branches": 63967,
+ "avg_premium": 41.99,
+ "avg_daily_usd_day1_23": 10810,
+ "avg_daily_usd_day24_end": 17900,
+ "avg_payments_by_weekday": {
+  "Friday": 358.0,
+  "Monday": 442.0,
+  "Saturday": 348.0,
+  "Sunday": 78.0,
+  "Thursday": 333.0,
+  "Tuesday": 427.0,
+  "Wednesday": 346.0
+ },
+ "flagged_payments": 783,
+ "passed_checks_pct": 97.45,
+ "flags": {
+  "unusual_policy_term": 326,
+  "placeholder_policy": 304,
+  "insurer_missing": 86,
+  "policy_details_missing": 67
+ },
+ "placeholder_top8_agents_share_pct": 31.2,
+ "placeholder_total": 304
+}

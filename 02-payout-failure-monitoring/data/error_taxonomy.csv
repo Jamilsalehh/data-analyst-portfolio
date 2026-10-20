@@ -1,0 +1,14 @@
+response_code,normalized_message,failure_category,owner,severity,escalate,retry_recommended
+000,Paid,Success,-,-,No,No
+R01,Invalid account number,Receiver details,Customer Support,Medium,No,No
+R02,Account name mismatch,Receiver details,Customer Support,Medium,No,No
+R03,Account closed or dormant,Receiver details,Customer Support,Low,No,No
+R04,Wallet not registered,Receiver details,Customer Support,Low,No,No
+B01,Receiving bank unavailable,Bank / partner outage,Partner Operations,High,Yes,Yes
+B02,Timeout from receiving bank,Bank / partner outage,Partner Operations,High,Yes,Yes
+C01,Held by compliance screening,Compliance,Compliance,Medium,Yes,No
+C02,Sender limit exceeded,Limits,Customer Support,Low,No,No
+C03,Receiver limit exceeded,Limits,Customer Support,Low,No,No
+F01,Insufficient prefunding balance,Treasury,Finance,Critical,Yes,Yes
+T01,Duplicate transaction,Technical,Tech Team,Medium,Yes,No
+T02,Invalid request format,Technical,Tech Team,High,Yes,No

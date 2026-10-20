@@ -1,0 +1,7 @@
+criterion_id,criterion,weight,what_it_measures
+c1,Communication,15,"Greeting, empathy, clear language, proper closing"
+c2,Issue handling & SOP,25,Understood the issue and followed the correct procedure
+c3,Resolution & follow-up,20,"Solved it, or set a clear next step and followed up on time"
+c4,Escalation & ownership,15,"Escalated only when needed, with complete notes; owned the case"
+c5,Accuracy & documentation,10,Information given was correct; ticket/call notes complete
+c6,Security & compliance,15,Verified identity before account changes; no data shared wrongly

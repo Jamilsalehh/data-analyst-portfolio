@@ -1,0 +1,145 @@
+{
+ "duplicates_removed": 85,
+ "unmapped_bank_rows": 0,
+ "rows_clean": 82422,
+ "attempts": 82422,
+ "requests": 80349,
+ "retries": 2073,
+ "attempt_success_rate": 91.84,
+ "usd_volume": 18427426.0,
+ "failed_usd": 1609977.0,
+ "first_try_success_rate": 93.53,
+ "final_success_rate": 94.21,
+ "failures": 6725,
+ "failure_share_by_category": {
+  "Receiver details": 60.5,
+  "Compliance": 10.8,
+  "Limits": 9.7,
+  "Bank / partner outage": 9.0,
+  "Treasury": 5.6,
+  "Technical": 4.4
+ },
+ "failure_share_by_owner": {
+  "Customer Support": 70.2,
+  "Compliance": 10.8,
+  "Partner Operations": 9.0,
+  "Finance": 5.6,
+  "Tech Team": 4.4
+ },
+ "invalid_account_rate_by_country": {
+  "ET": 7.57,
+  "SD": 2.78,
+  "NP": 2.49,
+  "IN": 2.43,
+  "KE": 2.4,
+  "LK": 2.25,
+  "GH": 2.23,
+  "PH": 2.21,
+  "EG": 2.1,
+  "BD": 1.95
+ },
+ "et_bank_requests": 7116,
+ "et_receiver_detail_failures": 675,
+ "et_r01r02_rate": 9.49,
+ "others_r01r02_rate": 3.45,
+ "et_avoidable_if_like_others": 429,
+ "retries_by_original_retryable": [
+  {
+   "orig_retryable": "No",
+   "retries": 1581,
+   "success": 9.2
+  },
+  {
+   "orig_retryable": "Yes",
+   "retries": 492,
+   "success": 80.7
+  }
+ ],
+ "share_of_retries_on_non_retryable": 76.3,
+ "f01_failures": 378,
+ "f01_share_day27plus": 99.7,
+ "f01_usd": 89807.0,
+ "incident_days": [
+  {
+   "bank_id": "EGB01",
+   "date": "2026-07-14",
+   "n": "10",
+   "outage": "4"
+  },
+  {
+   "bank_id": "EGB01",
+   "date": "2026-07-15",
+   "n": "16",
+   "outage": "10"
+  },
+  {
+   "bank_id": "PHW01",
+   "date": "2026-08-22",
+   "n": "17",
+   "outage": "4"
+  },
+  {
+   "bank_id": "ETB01",
+   "date": "2026-09-08",
+   "n": "15",
+   "outage": "4"
+  },
+  {
+   "bank_id": "ETB01",
+   "date": "2026-09-09",
+   "n": "15",
+   "outage": "5"
+  },
+  {
+   "bank_id": "ETB01",
+   "date": "2026-09-10",
+   "n": "28",
+   "outage": "6"
+  }
+ ],
+ "incident_failed_attempts": 40,
+ "incident_failed_usd": 9665.0,
+ "normal_bank_day_outage_rate": 0.69,
+ "median_exec_s_by_type": {
+  "Bank account": 151.0,
+  "Cash pickup": 59.0,
+  "Mobile wallet": 35.0
+ },
+ "slowest_banks_median_s": {
+  "BDB03": 452.0,
+  "INB03": 162.0,
+  "GHB03": 155.0
+ },
+ "monthly": [
+  {
+   "month": "2026-04",
+   "attempts": 12957,
+   "success": 91.77
+  },
+  {
+   "month": "2026-05",
+   "attempts": 13648,
+   "success": 92.04
+  },
+  {
+   "month": "2026-06",
+   "attempts": 13468,
+   "success": 92.08
+  },
+  {
+   "month": "2026-07",
+   "attempts": 13781,
+   "success": 91.89
+  },
+  {
+   "month": "2026-08",
+   "attempts": 14522,
+   "success": 91.55
+  },
+  {
+   "month": "2026-09",
+   "attempts": 14046,
+   "success": 91.73
+  }
+ ]
+}

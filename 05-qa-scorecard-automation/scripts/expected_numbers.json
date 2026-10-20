@@ -1,0 +1,81 @@
+{
+ "audits": 1572,
+ "agents": 40,
+ "critical_errors": 66,
+ "by_period": [
+  {
+   "period": "Apr\u2013Jun (manual)",
+   "audits": 780,
+   "avg_score": 76.2,
+   "below_70_pct": 21.8,
+   "median_hours_to_feedback": 120.0,
+   "median_hours_to_ack": 22.3
+  },
+  {
+   "period": "Jul\u2013Sep (automated)",
+   "audits": 792,
+   "avg_score": 80.0,
+   "below_70_pct": 14.0,
+   "median_hours_to_feedback": 0.0,
+   "median_hours_to_ack": 3.6
+  }
+ ],
+ "monthly": [
+  {
+   "m": "2026-04",
+   "avg": "75.7",
+   "below70": "23.9"
+  },
+  {
+   "m": "2026-05",
+   "avg": "75.8",
+   "below70": "24.2"
+  },
+  {
+   "m": "2026-06",
+   "avg": "77.1",
+   "below70": "17.4"
+  },
+  {
+   "m": "2026-07",
+   "avg": "79.3",
+   "below70": "14.5"
+  },
+  {
+   "m": "2026-08",
+   "avg": "79.5",
+   "below70": "13.9"
+  },
+  {
+   "m": "2026-09",
+   "avg": "81.2",
+   "below70": "13.6"
+  }
+ ],
+ "next_audit_gain_after_sub70": {
+  "Apr\u2013Jun (manual)": 6.5,
+  "Jul\u2013Sep (automated)": 8.9
+ },
+ "next_audit_back_to_70_pct": {
+  "Apr\u2013Jun (manual)": 46.5,
+  "Jul\u2013Sep (automated)": 57.0
+ },
+ "repeat_failure_pct": {
+  "Apr\u2013Jun (manual)": 48.2,
+  "Jul\u2013Sep (automated)": 8.9
+ },
+ "criterion_fail_counts": {
+  "Issue handling & SOP": 144,
+  "Security & compliance": 132,
+  "Resolution & follow-up": 96,
+  "Escalation & ownership": 87,
+  "Accuracy & documentation": 79,
+  "Communication": 70
+ },
+ "agents_up_5plus": 10,
+ "agents_down": 4,
+ "median_minutes_to_feedback": {
+  "Apr\u2013Jun (manual)": 7200.0,
+  "Jul\u2013Sep (automated)": 2.0
+ }
+}
