@@ -1,5 +1,6 @@
 # Contact Center Performance: calls and tickets in one view
 
+**Live dashboard:** [open the Looker Studio report](https://lookerstudio.google.com/reporting/ec5d03d7-f557-4b7f-9f77-3b7b0cb357e8) (view-only, synthetic data)
 **Tools:** SQL (BigQuery) · Looker Studio · Google Sheets
 **Data:** 713K offered phone calls (hourly queue stats), 10K agent-days, 58K helpdesk tickets · Jan–Sep 2026
 **Note:** Synthetic data. I built the original version of this dashboard at work, for a payments company's support teams. To share it publicly, I rebuilt it here on generated data for a fictional digital wallet, "Northwind Pay". The structure matches the real exports, but every name and number is made up.
@@ -29,6 +30,22 @@ Every week someone copied numbers from both into a spreadsheet. By the time the 
 | Temporary phone-system IDs not in the staff list | 154 agent-day rows | Labelled "Unmapped" and kept out of agent rankings |
 | Ticket status in mixed casing (`solved` vs `Solved`) | 1,739 tickets | Standardised with `INITCAP` |
 | `solved_at` earlier than `created_at` | 40 tickets | Excluded from resolution-time averages |
+
+## The dashboard
+
+[Open the live report](https://lookerstudio.google.com/reporting/ec5d03d7-f557-4b7f-9f77-3b7b0cb357e8). It has three pages, a date filter and a queue filter.
+
+**Calls Overview:** KPI cards, daily volume, and a queue table.
+![Calls Overview page](images/dashboard_calls.jpg)
+
+**Calls Overview, continued:** when App Support callers hang up, by weekday and hour.
+![Abandon-rate heatmap](images/dashboard_heatmap.jpg)
+
+**Agent Performance:** headcount on the phones next to the weekly answer rate, plus an agent ranking.
+![Agent Performance page](images/dashboard_agents.jpg)
+
+**Tickets Overview:** reply speed against satisfaction, plus a team table.
+![Tickets Overview page](images/dashboard_tickets.jpg)
 
 ## What the data showed
 
