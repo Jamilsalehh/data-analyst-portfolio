@@ -1,0 +1,61 @@
+bank_id,bank_name,country_code,payout_type
+PHB01,PH Bank 01,PH,Bank account
+PHB02,PH Bank 02,PH,Bank account
+PHB03,PH Bank 03,PH,Bank account
+PHB04,PH Bank 04,PH,Bank account
+PHW01,PH Wallet 01,PH,Mobile wallet
+PHW02,PH Wallet 02,PH,Mobile wallet
+PHC01,PH Cash Pickup 01,PH,Cash pickup
+ETB01,ET Bank 01,ET,Bank account
+ETB02,ET Bank 02,ET,Bank account
+ETB03,ET Bank 03,ET,Bank account
+ETB04,ET Bank 04,ET,Bank account
+ETW01,ET Wallet 01,ET,Mobile wallet
+ETW02,ET Wallet 02,ET,Mobile wallet
+ETC01,ET Cash Pickup 01,ET,Cash pickup
+LKB01,LK Bank 01,LK,Bank account
+LKB02,LK Bank 02,LK,Bank account
+LKB03,LK Bank 03,LK,Bank account
+LKB04,LK Bank 04,LK,Bank account
+LKW01,LK Wallet 01,LK,Mobile wallet
+LKW02,LK Wallet 02,LK,Mobile wallet
+LKC01,LK Cash Pickup 01,LK,Cash pickup
+BDB01,BD Bank 01,BD,Bank account
+BDB02,BD Bank 02,BD,Bank account
+BDB03,BD Bank 03,BD,Bank account
+BDB04,BD Bank 04,BD,Bank account
+BDW01,BD Wallet 01,BD,Mobile wallet
+BDW02,BD Wallet 02,BD,Mobile wallet
+BDC01,BD Cash Pickup 01,BD,Cash pickup
+EGB01,EG Bank 01,EG,Bank account
+EGB02,EG Bank 02,EG,Bank account
+EGB03,EG Bank 03,EG,Bank account
+EGB04,EG Bank 04,EG,Bank account
+EGW01,EG Wallet 01,EG,Mobile wallet
+EGW02,EG Wallet 02,EG,Mobile wallet
+EGC01,EG Cash Pickup 01,EG,Cash pickup
+NPB01,NP Bank 01,NP,Bank account
+NPB02,NP Bank 02,NP,Bank account
+NPB03,NP Bank 03,NP,Bank account
+NPW01,NP Wallet 01,NP,Mobile wallet
+NPC01,NP Cash Pickup 01,NP,Cash pickup
+INB01,IN Bank 01,IN,Bank account
+INB02,IN Bank 02,IN,Bank account
+INB03,IN Bank 03,IN,Bank account
+INW01,IN Wallet 01,IN,Mobile wallet
+INC01,IN Cash Pickup 01,IN,Cash pickup
+GHB01,GH Bank 01,GH,Bank account
+GHB02,GH Bank 02,GH,Bank account
+GHB03,GH Bank 03,GH,Bank account
+GHW01,GH Wallet 01,GH,Mobile wallet
+GHC01,GH Cash Pickup 01,GH,Cash pickup
+KEB01,KE Bank 01,KE,Bank account
+KEB02,KE Bank 02,KE,Bank account
+KEB03,KE Bank 03,KE,Bank account
+KEW01,KE Wallet 01,KE,Mobile wallet
+KEC01,KE Cash Pickup 01,KE,Cash pickup
+SDB01,SD Bank 01,SD,Bank account
+SDB02,SD Bank 02,SD,Bank account
+SDB03,SD Bank 03,SD,Bank account
+SDW01,SD Wallet 01,SD,Mobile wallet
+SDC01,SD Cash Pickup 01,SD,Cash pickup

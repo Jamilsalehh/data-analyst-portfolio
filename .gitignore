@@ -1,0 +1,7 @@
+# local / build files
+__pycache__/
+*.pyc
+.DS_Store
+*.build/
+04-agent-collections-pipeline/tests/output/*.tmp
+~$*.xlsx
